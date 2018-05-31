@@ -252,11 +252,13 @@ def players
     team_data.each do |team_keys, data|
       if team_keys == :players 
         data.each do |player, stats|
+          player_hash[player] = stats
       binding.pry
         end
       end
     end
   end
+  player_hash
 end
 
 players
