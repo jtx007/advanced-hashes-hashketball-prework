@@ -257,6 +257,7 @@ def players
       end
     end
   end
+  binding.pry
   player_hash
 end
 
