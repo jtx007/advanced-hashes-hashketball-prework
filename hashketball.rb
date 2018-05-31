@@ -247,6 +247,12 @@ def find_the_player(player_name)
 end
 
 def players
+  player_hash = {}
+  game_hash.each do |location, team_data|
+    team_data.each do |team_keys, data|
+      binding.pry
+    end
+  end
 end
 
 
