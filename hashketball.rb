@@ -253,6 +253,8 @@ def players
       if team_keys == :players 
         data.each do |player, stats|
       binding.pry
+        end
+      end
     end
   end
 end
