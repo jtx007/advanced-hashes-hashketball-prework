@@ -250,6 +250,8 @@ def players
   player_hash = {}
   game_hash.each do |location, team_data|
     team_data.each do |team_keys, data|
+      if team_keys == :players 
+        data.each do |player, stats|
       binding.pry
     end
   end
